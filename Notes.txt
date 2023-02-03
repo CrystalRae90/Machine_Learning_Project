@@ -1,1 +1,19 @@
-hello
+2.1.23
+
+- Images into Database  
+*Research MongoDB connection to google collab
+*Research how to get the images into 
+
+
+- Website
+Can be started whenever
+
+Visualizations - What level or interactive
+
+- Model 
+ -3D CNN - Convulated Neural Network 
+ -Set up Google Collab 
+ 
+ 
+ 
+  
