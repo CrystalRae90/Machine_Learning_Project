@@ -27,3 +27,7 @@ Once the data was cleaned, we moved onto the data modeling
 # Model 
 
 # Wesbite & Flask 
+Houstonians will be able to use our interactive website to upload pictures of birds they have taken around the City of Houston. Our machine will be able to identify the bird they have uploaded to our website, by returning them with the bird’s name along with a short bio about the bird. 
+
+We will be using HTML, JavaScript, VSC and Flask on building our interactive website. 
+
