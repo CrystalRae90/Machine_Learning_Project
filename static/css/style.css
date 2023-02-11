@@ -1,15 +1,24 @@
 body {
-    
+    background-color: #f1f2f3;
     color: #381075;
   }
+
+
   .jumbotron {
     background-image: url("../images/bayou.jpg");
     background-size: 100% 100%;
     text-align: center;
   }
 
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
   /* Style the tab */
-.tab {
+.tabLinks {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
