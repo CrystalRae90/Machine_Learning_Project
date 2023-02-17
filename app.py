@@ -9,7 +9,7 @@ import os
 from keras.preprocessing import image
 
 app = Flask(__name__)
-model = load_model("model/bird_model.h5")
+model = load_model("model/bird_modelv2.h5")
 target_img = os.path.join(os.getcwd() , "static/test_images")
 
 @app.route("/")
