@@ -16,13 +16,15 @@ In order to start this project, we identified high level items that needed to be
 
 To obtain a dataset, we used the Flickr API. This allowed us to predetermine a list of birds we wanted to model and also predetermine a size for all photos. 
 
+When determining which photos to call, standard size of photos was something that we needed to take into consideration. As our dataset was going to consist of a large number of photos, we did not need the photos to be standard sized but still needed them large enough to analyze. 
+
 As with any dataset, the data had to be cleaned to ensure that we would get reasonable results. Some of the parameters we considered included: 
 - The amount of noise in the photo (How much space the bird took up)
 - Whether the photo was of the bird itself 
 - The number of birds in the photo
 - Large distracting features in the photo 
 
-Once the data was cleaned, we moved onto the data modeling 
+Once the data was cleaned, we moved onto the data modeling.
 
 # Model 
 
