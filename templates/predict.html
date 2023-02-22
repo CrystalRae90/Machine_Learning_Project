@@ -108,14 +108,14 @@
         <input type="file" name="file"/><br>
         <input type = "submit" class="btn btn-success" value="Predict">
         </form>
-        <div class="col-lg-5" style="padding-top:30px">
-            <span class="border border-primary">
+        <div class="container" style="padding-top:30px">
+          <span class="border border-primary">
               <img src="{{ user_image }}" alt="User Image" class="img-thumbnail" style="width:250px;height:250px;float:right">
-            </span>
+          </span>    
         </div>
-        <div class="col-lg-5" style="padding-top:30px">
-            <h4>Bird name is <mark style="background-color:#4c2802;color:white;border-radius:5px">{{bird}}</mark></h4>
-            <h4>Probabilities : {{prob}}</h4>
+        <div class="container" style="padding-top:30px">
+            <h4>Bird name is : <mark style="background-color:#4c2802;color:white;border-radius:5px">{{bird}}</mark></h4>
+            <h4>Description : {{facts}}</h4>
         </div>
     </div>
   </div>
